@@ -1,2 +1,2 @@
 # BMI
-link : https://magdalenarosa.github.io/BMI/
+https://magdalenarosa.github.io/BMI/
