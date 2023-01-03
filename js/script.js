@@ -20,7 +20,7 @@ function calcBMI(){
         const bmi = (weight / ((height * height) 
                             / 10000)).toFixed(2);
   
-        // Dividing as per the bmi conditions
+        //sprawdzanie warunków
         if (bmi < 18.5) result.innerHTML =
             `Niedowaga: <br>Wskaźnik BMI:<span>${bmi}</span>`;
   
@@ -40,7 +40,8 @@ function calcBMI(){
             result.innerHTML = 
             `Otyłość stopnia 2: <br>Wskaźnik BMI:<span>${bmi}</span>`;
   
-        else result.innerHTML =
+        else 
+            result.innerHTML =
             `Otyłóść stopnia 3: <br>Wskaźnik BMI:<span>${bmi}</span>`;
   
     }
